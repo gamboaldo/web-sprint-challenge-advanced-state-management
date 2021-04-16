@@ -82,6 +82,10 @@ const AddForm = (props) => {
             id="description"
           />
         </div>
+        <div>
+          {" "}
+          <h1>{serverError}</h1>{" "}
+        </div>
         {formError && (
           <div
             data-testid="errorAlert"
